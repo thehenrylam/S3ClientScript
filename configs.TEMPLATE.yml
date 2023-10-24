@@ -1,0 +1,7 @@
+s3:
+  bucket-name: "S3_BUCKET_NAME"
+  storage-alias:
+    raw: "S3_PREFIX_FOR_THIS_ALIAS"
+    mvn: "S3_PREFIX_FOR_THIS_ALIAS"
+access:
+  key-filepath: "FILEPATH_OF_ANSIBLE_KEY"

@@ -1,0 +1,11 @@
+# This is the general template that must be followed:
+# Pro-tip: This file supports '#' comments! Use them!
+<repo_alias>,<path_to_s3_object>
+# Example 01: 
+#   Attempt to get "file.txt" from the RAW prefix (using the alias of 'raw', set in configs.yml)
+#   The path in s3 is get_full_repo_name('raw')/path/to/file.txt
+raw,path/to/file.txt
+# Example 02:
+#   Attempt to get version 2.1 "binary.jar" from the RAW prefix (using the alias of 'mvn', set in configs.yml)
+#   The path in s3 is get_full_repo_name('mvn')/path/to/binary/2.1/binary.jar
+mvn,path/to/binary/2.1/binary.jar

@@ -1,0 +1,14 @@
+*/__pycache__/*
+*.swp
+
+*.ignore.*
+
+*.nxp
+!*.TEMPLATE.nxp
+
+configs.yml
+
+secrets.yml
+*.key
+
+
